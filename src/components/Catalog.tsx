@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import api from '../services/api';
 import { addProductToCart } from '../store/modules/cart/actions';
 import { IProduct } from '../store/modules/cart/types';
@@ -17,7 +17,7 @@ const Catalog: React.FC = () => {
 
   const handleAddProductToCart = useCallback((product: IProduct) => {
     dispatch(addProductToCart(product))
-  },[])
+  },[dispatch])
 
   return (
     <main>
