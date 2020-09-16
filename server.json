@@ -14,6 +14,12 @@
       "id": 3,
       "title": "Tênis da moda",
       "price": 500.00
+    },
+
+    {
+      "id": 4,
+      "title": "Tênis furado",
+      "price": 10.00
     }
   ],
   "stock": [
@@ -28,6 +34,11 @@
     {
       "id": 3,
       "quantity": 1
+    },
+
+    {
+      "id": 4,
+      "quantity": 5
     }
   ]
 }
