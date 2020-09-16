@@ -7,6 +7,7 @@ const Catalog: React.FC = () => {
 
   console.log(catalog)
 
+
   return (
     <h1>Catalog</h1>
   );
