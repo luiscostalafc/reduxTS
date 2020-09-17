@@ -1,7 +1,7 @@
 export interface IProduct {
   id: number;
   title: string;
-  price: number
+  price: number;
 }
 
 export interface ICartItem {
@@ -11,4 +11,5 @@ export interface ICartItem {
 
 export interface ICartState {
   items: ICartItem[];
+  failedStockCheck: number[];
 }
