@@ -3,7 +3,7 @@ import { IProduct } from '../store/modules/cart/types'
 import { addProductToCartRequest } from '../store/modules/cart/actions'
 import { useDispatch, useSelector } from 'react-redux'
 import { IState } from '../store'
-import { spawn } from 'child_process'
+
 
 
 interface CatalogItemProps {
