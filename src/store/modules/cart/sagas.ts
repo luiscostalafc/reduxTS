@@ -1,7 +1,10 @@
 import { all, takeLatest } from 'redux-saga/effects'
+import { addProductToCart } from './actions'
 
-function checkProductStock() {
-  console.log('Adicionou ao carrinho')
+type CheckProductStockRequest = ReturnType<typeof addProductToCart>
+
+function* checkProductStock({ payload }: CheckProductStockRequest) {
+  
 }
 
 export default all([
